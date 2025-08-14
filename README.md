@@ -1,11 +1,19 @@
 # 5185444_Manjunath-K-P
 
-<div style="background-color:#333;padding:10px;text-align:center;border-radius:8px;">
-  <a href="#1" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">SDLC</a>
-  <a href="#2" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">GIT</a>
-  <a href="#3" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">LINUX</a>
-  <a href="#4" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">C_PROGRAMMING</a>
-</div>
+<p align="center">
+  <a href="#1" style="text-decoration:none;">
+    <b>🛠️ SDLC</b>
+  </a> •
+  <a href="#2" style="text-decoration:none;">
+    <b>🌱 GIT</b>
+  </a> •
+  <a href="#3" style="text-decoration:none;">
+    <b>💻 LINUX</b>
+  </a> •
+  <a href="#4" style="text-decoration:none;">
+    <b>⚡ C_PROGRAMMING</b>
+  </a>
+</p>
 
 <section id="1">
 <div style="text-align: center;">

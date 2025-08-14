@@ -1,5 +1,12 @@
 # 5185444_Manjunath-K-P
 
+<div style="background-color:#333;padding:10px;text-align:center;border-radius:8px;">
+  <a href="#1" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">SDLC</a>
+  <a href="#2" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">GIT</a>
+  <a href="#3" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">LINUX</a>
+  <a href="#4" style="color:white;text-decoration:none;margin:0 15px;font-weight:bold;">C_PROGRAMMING</a>
+</div>
+
 <section id="1">
 <div style="text-align: center;">
   <img src="SDLC_week1/Certificates/sdlc1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />

@@ -12,6 +12,21 @@
 
 </div>
 
+
+## 📚 Overview
+
+Welcome to my repository! This is a comprehensive record of my learning journey through:
+
+- **📘 SDLC (Software Development Life Cycle)**
+- **🛠️ Git & Version Control**
+- **🐧 Linux Command Line**
+- **💻 C Programming Fundamentals**
+- **🧪 Unit Testing with Unity Framework**
+
+It contains **certificates**, **hands-on exercises**, and **practical command-line tasks** to showcase my progress and skills.
+
+---
+
 <section id="1">
 <div style="text-align: center;">
   <img src="SDLC_week1/Certificates/sdlc1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />

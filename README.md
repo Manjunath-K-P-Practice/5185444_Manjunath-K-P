@@ -13,7 +13,7 @@
 
 </div>
 
-<section id="0">
+
 ## 📚 Overview
 
 Welcome to my repository! This is a comprehensive record of my learning journey through:
@@ -26,7 +26,7 @@ Welcome to my repository! This is a comprehensive record of my learning journey 
 
 It contains **certificates**, **hands-on exercises**, and **practical command-line tasks** to showcase my progress and skills.
 
-<\section>
+
 ---
 
 <section id="1">

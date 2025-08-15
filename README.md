@@ -1,7 +1,7 @@
 # 5185444_Manjunath-K-P
 
 <div style="width:100%; background-color:#222; padding:10px; text-align:center;">
-<a href="#0" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🛠️ Overview</a>
+
 
 <a href="#1" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🛠️ SDLC</a>
 

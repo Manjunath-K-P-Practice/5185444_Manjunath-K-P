@@ -62,4 +62,19 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 <div style="text-align: center;">
   <img src="Unity_week5/output_photos/photo1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/photo2.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/photo3.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/photo4.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/photo5.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/photo6.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
 </section>

@@ -2,15 +2,15 @@
 
 <div style="width:100%; background-color:#222; padding:10px; text-align:center;">
 
-    <a href="#1" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🛠️ SDLC</a>
+<a href="#1" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🛠️ SDLC</a>
 
-    <a href="#2" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🌱 GIT</a>
+<a href="#2" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🌱 GIT</a>
 
-    <a href="#3" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">💻 LINUX</a>
+<a href="#3" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">💻 LINUX</a>
 
-    <a href="#4" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">⚡ C PROGRAMMING</a>
+<a href="#4" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">⚡ C PROGRAMMING</a>
 
-    <a href="#5" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🧪 UNITY TESTING</a>
+<a href="#5" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🧪 UNITY TESTING</a>
 
 </div>
 

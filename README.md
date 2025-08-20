@@ -29,6 +29,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 ---
 
 <section id="1">
+<h1>SDLC</h1>
 <div style="text-align: center;">
   <img src="SDLC_week1/Certificates/sdlc1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
@@ -37,6 +38,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 </div>
 </section>
 <section id="2">
+<h1>GIT</h1>
 <div style="text-align: center;">
   <img src="Git_week2/Certificates/5185444.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
@@ -48,6 +50,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 </div>
 </section>
 <section id="3">
+<h1>LINUX</h1>
 <div style="text-align: center;">
   <img src="Linux_week3/practice.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
@@ -59,6 +62,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 </div>
 </section>
 <section id="4">
+<h1>C PROGRAMMING</h1>
 <div style="text-align: center;">
   <img src="C_programming_week4/Certificates/cbeginner.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
@@ -67,6 +71,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 </div>
 </section>
 <section id="5">
+<h1>UNITY FRAMEWORK</h1>
 <div style="text-align: center;">
   <img src="Unity_week5/output_photos/photo1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>

@@ -5,6 +5,17 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+
+void test_pangram(){
+    TEST_ASSERT_EQUAL_STRING("pangram",pangrams("We promptly judged antique ivory buckles for the next prize"));
+    TEST_ASSERT_EQUAL_STRING("not pangram",pangrams("We promptly judged antique ivory buckles for the prize"));
+
+
+    printf("===============test pangram end=============");
+
+
+
+}
 void test_avg(){
     int arr[]={1,2,3,4,5};
     TEST_ASSERT_FLOAT_WITHIN(0.0,3.0,arr_average(arr,5));

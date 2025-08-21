@@ -1,6 +1,6 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
-
+char* pangrams(char* s);
 int add(int a,int b);
 int sub(int a,int b);
 int mul(int a,int b);

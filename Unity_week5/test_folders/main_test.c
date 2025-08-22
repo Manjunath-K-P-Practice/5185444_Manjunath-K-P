@@ -5,6 +5,14 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_diagonal(void){
+    int a[3][3]={{11,2,4},{4,5,6},{10,8,-12}};
+int b[3][3]={{3,3,3},{3,3,3},{3,3,3}};
+TEST_ASSERT_EQUAL_INT(0,diagonalDifference(3,3,a));
+TEST_ASSERT_EQUAL_INT(15,diagonalDifference(3,3,a));
+printf("===============test diagonal difference end=============");
+
+}
 
 void test_lonelyinteger(void)
 {
@@ -131,6 +139,7 @@ int main()
      RUN_TEST(test_swap);
      RUN_TEST(test_arr_swap);
      RUN_TEST(test_lonelyinteger);
+        RUN_TEST(test_diagonal);
 
     return UNITY_END();
 

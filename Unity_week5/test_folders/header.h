@@ -1,6 +1,7 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
 char* pangrams(char* s);
+int lonelyinteger(int a_count, int* a);
 int add(int a,int b);
 int sub(int a,int b);
 int mul(int a,int b);

@@ -6,6 +6,17 @@ void setUp(void) { }
 void tearDown(void) { }
 
 
+void test_lonelyinteger(void)
+{
+    int a[7]={1,2,3,4,3,2,1};
+    int b[5]={1,3,3,2,1};
+
+    TEST_ASSERT_EQUAL_INT(4,lonelyinteger(7,a));
+    TEST_ASSERT_EQUAL_INT(2,lonelyinteger(5,b));
+    printf("===============test lonelyinteger end=============");
+
+
+}
 void test_pangram(){
     TEST_ASSERT_EQUAL_STRING("pangram",pangrams("We promptly judged antique ivory buckles for the next prize"));
     TEST_ASSERT_EQUAL_STRING("not pangram",pangrams("We promptly judged antique ivory buckles for the prize"));
@@ -119,6 +130,7 @@ int main()
      RUN_TEST(test_avg);
      RUN_TEST(test_swap);
      RUN_TEST(test_arr_swap);
+     RUN_TEST(test_lonelyinteger);
 
     return UNITY_END();
 

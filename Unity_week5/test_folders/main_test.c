@@ -5,6 +5,14 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_drawingbook(void){
+
+TEST_ASSERT_EQUAL_INT(1,pageCount(6,2));
+TEST_ASSERT_EQUAL_INT(0,pageCount(5,4));
+printf("===============test drawing book end=============");
+
+}
+
 void test_diagonal(void){
     int a[3][3]={{11,2,4},{4,5,6},{10,8,-12}};
 int b[3][3]={{3,3,3},{3,3,3},{3,3,3}};
@@ -140,6 +148,7 @@ int main()
      RUN_TEST(test_arr_swap);
      RUN_TEST(test_lonelyinteger);
         RUN_TEST(test_diagonal);
+        RUN_TEST(test_drawingbook);
 
     return UNITY_END();
 

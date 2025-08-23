@@ -54,14 +54,14 @@ int parse_int(char*);
  */
 int* icecreamParlor(int m, int arr_count, int* arr, int* result_count) {
     int *r = (int*)malloc(2 * sizeof(int));
-    *result_count = 2;
-for (int i =0;i <arr_count;i++) {
-        for (int j= i + 1;j <arr_count;j++)
+    *result_count=2;
+for (int i=0;i<arr_count;i++) {
+        for (int j=i+1;j<arr_count;j++)
          {
-            if (arr[i] + arr[j] == m)
+            if (arr[i]+arr[j] == m)
              {
-            r[0] = i + 1;   
-            r[1] = j + 1;
+            r[0]=i+1;   
+            r[1]=j+1;
            return r;
             }
         }

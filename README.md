@@ -99,4 +99,7 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 <div style="text-align: center;">
   <img src="Unity_week5/output_photos/diagonal_difference.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
+<div style="text-align: center;">
+  <img src="Unity_week5/output_photos/drawing_book.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
 </section>

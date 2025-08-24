@@ -5,6 +5,11 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_caesarCipher(void){
+TEST_ASSERT_EQUAL_STRING("okffng-Qwvb",caesarCipher("middle-Outz", 2));
+TEST_ASSERT_EQUAL_STRING("dssoh",caesarCipher("apple", 3));
+printf("===============test caesarcipher problem end=============");
+}
 void test_towerbreaker(void){
 
 TEST_ASSERT_EQUAL_INT(2,towerBreakers(2,2));

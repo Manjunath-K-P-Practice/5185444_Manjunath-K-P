@@ -9,6 +9,7 @@ int mul(int a,int b);
 int divide(int a, int b);
 int pageCount(int n, int p);
 int towerBreakers(int n, int m);
+char* caesarCipher(const char* s, int k);
 int mod(int a,int b);
 int square(int a);
 int leapyear(int n);

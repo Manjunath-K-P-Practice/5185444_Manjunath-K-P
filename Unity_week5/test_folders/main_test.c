@@ -5,6 +5,14 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_towerbreaker(void){
+
+TEST_ASSERT_EQUAL_INT(2,towerBreakers(2,2));
+TEST_ASSERT_EQUAL_INT(1,towerBreakers(1,4));
+printf("===============test towerbreaker problem end=============");
+
+}
+
 void test_drawingbook(void){
 
 TEST_ASSERT_EQUAL_INT(1,pageCount(6,2));
@@ -147,8 +155,9 @@ int main()
      RUN_TEST(test_swap);
      RUN_TEST(test_arr_swap);
      RUN_TEST(test_lonelyinteger);
-        RUN_TEST(test_diagonal);
-        RUN_TEST(test_drawingbook);
+     RUN_TEST(test_diagonal);
+     RUN_TEST(test_drawingbook);    
+     RUN_TEST(test_towerbreaker);
 
     return UNITY_END();
 

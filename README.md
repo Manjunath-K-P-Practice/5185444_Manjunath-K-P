@@ -12,6 +12,8 @@
 
 <a href="#5" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🧪 UNITY TESTING</a>
 
+<a href="#6" style="color:white; text-decoration:none; margin: 0 20px; font-weight:bold; font-size:18px;">🏆 HACKERRANK</a>
+
 </div>
 
 ## 📚 Overview
@@ -104,5 +106,11 @@ It contains **certificates**, **hands-on exercises**, and **practical command-li
 </div>
 <div style="text-align: center;">
   <img src="Unity_week5/output_photos/h1.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+</section>
+<section id="6">
+<h1>HACKERRANK</h1>
+<div style="text-align: center;">
+  <img src="Hackerrank/hackerrank.png" alt="Descriptive Alt Text" style="max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
 </div>
 </section>

@@ -17,141 +17,91 @@ char** split_string(char*);
 int parse_int(char*);
 
 /*
- * Complete the 'bomberMan' function below.
+ * Complete the 'maxSubarray' function below.
  *
- * The function is expected to return a STRING_ARRAY.
- * The function accepts following parameters:
- *  1. INTEGER n
- *  2. STRING_ARRAY grid
+ * The function is expected to return an INTEGER_ARRAY.
+ * The function accepts INTEGER_ARRAY arr as parameter.
  */
 
 /*
- * To return the string array from the function, you should:
+ * To return the integer array from the function, you should:
  *     - Store the size of the array to be returned in the result_count variable
  *     - Allocate the array statically or dynamically
  *
  * For example,
- * char** return_string_array_using_static_allocation(int* result_count) {
+ * int* return_integer_array_using_static_allocation(int* result_count) {
  *     *result_count = 5;
  *
- *     static char* a[5] = {"static", "allocation", "of", "string", "array"};
+ *     static int a[5] = {1, 2, 3, 4, 5};
  *
  *     return a;
  * }
  *
- * char** return_string_array_using_dynamic_allocation(int* result_count) {
+ * int* return_integer_array_using_dynamic_allocation(int* result_count) {
  *     *result_count = 5;
  *
- *     char** a = malloc(5 * sizeof(char*));
+ *     int *a = malloc(5 * sizeof(int));
  *
  *     for (int i = 0; i < 5; i++) {
- *         *(a + i) = malloc(20 * sizeof(char));
+ *         *(a + i) = i + 1;
  *     }
- *
- *     *(a + 0) = "dynamic";
- *     *(a + 1) = "allocation";
- *     *(a + 2) = "of";
- *     *(a + 3) = "string";
- *     *(a + 4) = "array";
  *
  *     return a;
  * }
  *
  */
-char** bomberMan(int n,int grid_count,char** grid,int* result_count){
-    int a=grid_count;
-    int b=strlen(grid[0]);
-    *result_count=a;
+int* maxSubarray(int n,int* arr,int* result_count){
+    int max_sum=arr[0];
+    int curr_sum=arr[0];
+    int max_elem=arr[0];
+    int non_cont_sum=(arr[0]>0?arr[0]:0);
 
-    if(n==1){
-        return grid;
+    for(int i=1;i<n;i++){
+        curr_sum=(curr_sum+arr[i]>arr[i])?curr_sum+arr[i]:arr[i];
+        if(curr_sum>max_sum) max_sum=curr_sum;
+        if(arr[i]>0) non_cont_sum+=arr[i];
+        if(arr[i]>max_elem) max_elem=arr[i];
     }
 
-    char** c=malloc(a*sizeof(char*));
-    for(int d=0;d<a;d++){
-        c[d]=malloc((b+1)*sizeof(char));
-        for(int e=0;e<b;e++){
-            c[d][e]='O';
-        }
-        c[d][b]='\0';
-    }
-
-    char** explode(char** f){
-        char** g=malloc(a*sizeof(char*));
-        for(int h=0;h<a;h++){
-            g[h]=malloc((b+1)*sizeof(char));
-            for(int i=0;i<b;i++){
-                g[h][i]='O';
-            }
-            g[h][b]='\0';
-        }
-
-        int j[4]={1,-1,0,0};
-        int k[4]={0,0,1,-1};
-
-        for(int l=0;l<a;l++){
-            for(int m=0;m<b;m++){
-                if(f[l][m]=='O'){
-                    g[l][m]='.';
-                    for(int n1=0;n1<4;n1++){
-                        int o=l+j[n1];
-                        int p=m+k[n1];
-                        if(o>=0&&o<a&&p>=0&&p<b){
-                            g[o][p]='.';
-                        }
-                    }
-                }
-            }
-        }
-        return g;
-    }
-
-    if(n%2==0){
-        return c;
-    }
-
-    char** q=explode(grid);
-    char** r=explode(q);
-
-    if(n%4==3){
-        return q;
-    }else{
-        return r;
-    }
+    int* res=malloc(2*sizeof(int));
+    res[0]=max_sum;
+    res[1]=(non_cont_sum>0)?non_cont_sum:max_elem;
+    *result_count=2;
+    return res;
 }
 
 int main()
 {
     FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
-    char** first_multiple_input = split_string(rtrim(readline()));
+    int t = parse_int(ltrim(rtrim(readline())));
 
-    int r = parse_int(*(first_multiple_input + 0));
+    for (int t_itr = 0; t_itr < t; t_itr++) {
+        int n = parse_int(ltrim(rtrim(readline())));
 
-    int c = parse_int(*(first_multiple_input + 1));
+        char** arr_temp = split_string(rtrim(readline()));
 
-    int n = parse_int(*(first_multiple_input + 2));
+        int* arr = malloc(n * sizeof(int));
 
-    char** grid = malloc(r * sizeof(char*));
+        for (int i = 0; i < n; i++) {
+            int arr_item = parse_int(*(arr_temp + i));
 
-    for (int i = 0; i < r; i++) {
-        char* grid_item = readline();
-
-        *(grid + i) = grid_item;
-    }
-
-    int result_count;
-    char** result = bomberMan(n, r, grid, &result_count);
-
-    for (int i = 0; i < result_count; i++) {
-        fprintf(fptr, "%s", *(result + i));
-
-        if (i != result_count - 1) {
-            fprintf(fptr, "\n");
+            *(arr + i) = arr_item;
         }
-    }
 
-    fprintf(fptr, "\n");
+        int result_count;
+        int* result = maxSubarray(n, arr, &result_count);
+
+        for (int i = 0; i < result_count; i++) {
+            fprintf(fptr, "%d", *(result + i));
+
+            if (i != result_count - 1) {
+                fprintf(fptr, " ");
+            }
+        }
+
+        fprintf(fptr, "\n");
+    }
 
     fclose(fptr);
 

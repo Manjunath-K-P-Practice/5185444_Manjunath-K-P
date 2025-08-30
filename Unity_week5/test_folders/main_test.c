@@ -5,6 +5,14 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_isbalanced(void){
+
+TEST_ASSERT_EQUAL_STRING("YES",isBalanced("{[()]}"));
+TEST_ASSERT_EQUAL_STRING("NO",isBalanced("{[(])}"));
+TEST_ASSERT_EQUAL_STRING("YES",isBalanced("{{[[(())]]}}"));
+printf("===============test isbalanced problem end=============");
+
+}
 void test_caesarCipher(void){
 TEST_ASSERT_EQUAL_STRING("okffng-Qwvb",caesarCipher("middle-Outz", 2));
 TEST_ASSERT_EQUAL_STRING("dssoh",caesarCipher("apple", 3));
@@ -163,6 +171,7 @@ int main()
      RUN_TEST(test_diagonal);
      RUN_TEST(test_drawingbook);    
      RUN_TEST(test_towerbreaker);
+      RUN_TEST(test_isbalanced);
 
     return UNITY_END();
 

@@ -5,6 +5,7 @@ int diagonalDifference(int arr_rows, int arr_columns, int arr[arr_rows][arr_colu
 int lonelyinteger(int a_count, int* a);
 int add(int a,int b);
 int sub(int a,int b);
+char* isBalanced(char* s);
 int mul(int a,int b);
 int divide(int a, int b);
 int pageCount(int n, int p);

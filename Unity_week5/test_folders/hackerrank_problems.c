@@ -28,3 +28,34 @@ char* caesarCipher(const char* s, int k) {
     return result;
 }
 
+char* isBalanced(char* s){
+    int len=strlen(s);
+    char* st=malloc(len);
+    int top=-1;
+
+    for(int i=0;i<len;i++){
+        char ch=s[i];
+        if(ch=='('||ch=='{'||ch=='['){
+            st[++top]=ch;
+        }else{
+            if(top==-1){
+                free(st);
+                return "NO";
+            }
+            char open=st[top--];
+            if((ch==')'&&open!='(')||
+               (ch=='}'&&open!='{')||
+               (ch==']'&&open!='[')){
+                free(st);
+                return "NO";
+            }
+        }
+    }
+
+    if(top==-1){
+        free(st);
+        return "YES";
+    }
+    free(st);
+    return "NO";
+}

@@ -1,5 +1,8 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
+
+
+int superDigit(char* n, int k);
 char* pangrams(char* s);
 int diagonalDifference(int arr_rows, int arr_columns, int arr[arr_rows][arr_columns]);
 int lonelyinteger(int a_count, int* a);

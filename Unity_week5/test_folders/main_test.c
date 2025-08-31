@@ -5,6 +5,15 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_superdigit(void){
+
+TEST_ASSERT_EQUAL_INT(3,superDigit("148", 3));
+TEST_ASSERT_EQUAL_INT(8,superDigit("9875", 4));
+TEST_ASSERT_EQUAL_INT(9,superDigit("123", 3));
+printf("===============test superdigit problem end=============");
+
+}
+
 void test_isbalanced(void){
 
 TEST_ASSERT_EQUAL_STRING("YES",isBalanced("{[()]}"));
@@ -172,7 +181,7 @@ int main()
      RUN_TEST(test_drawingbook);    
      RUN_TEST(test_towerbreaker);
       RUN_TEST(test_isbalanced);
-
+    RUN_TEST(test_superdigit);
     return UNITY_END();
 
 }

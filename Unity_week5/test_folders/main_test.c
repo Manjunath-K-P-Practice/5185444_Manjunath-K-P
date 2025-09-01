@@ -5,6 +5,12 @@
 void setUp(void) { }
 void tearDown(void) { }
 
+void test_countergame(void){
+
+    TEST_ASSERT_EQUAL_STRING("Richard",counterGame(6));
+     printf("===============test counter game problem end=============");
+}
+
 void test_superdigit(void){
 
 TEST_ASSERT_EQUAL_INT(3,superDigit("148", 3));
@@ -182,6 +188,7 @@ int main()
      RUN_TEST(test_towerbreaker);
       RUN_TEST(test_isbalanced);
     RUN_TEST(test_superdigit);
+    RUN_TEST(test_countergame);
     return UNITY_END();
 
 }
